@@ -17,7 +17,7 @@ function findCost(cost, n) {
                  let price_second = cost[i] + cost[i - 1] + 2 * cost[0]; 
                 fullCost += Math.min(price_first, price_second); 
             } 
-
+  
   }
         if (n == 1) 
         { 
